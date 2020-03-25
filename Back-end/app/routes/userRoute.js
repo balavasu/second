@@ -55,7 +55,7 @@ let setRouter = (app) => {
          "authToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RpZCI6IlJ2TVdxc3FYRyIsImlhdCI6MTU2MTM0NzM3Mjc4MSwiZXhwIjoxNTYxNDMzNzcyLCJzdWIiOiJhdXRoVG9rZW4iLCJpc3MiOiJtZWV0aW5nUGxhbm5lciIsImRhdGEiOnsidXNlcklkIjoiU21sSFl0MkpLIiwidXNlck5hbWUiOiJha2FzaHAtYWRtaW4iLCJmaXJzdE5hbWUiOiJBa2FzaCIsImxhc3ROYW1lIjoiUGF0ZWwiLCJtb2JpbGVOdW1iZXIiOjkwMzMyODk1NzEsImNvdW50cnlDb2RlIjoiOTEiLCJpc0FkbWluIjp0cnVlLCJlbWFpbCI6ImFwYXRlbEBnbWFpbC5jb20ifX0.OFNC4qRPKbpCT6SZbCctYYO5T4XSzRIKs4GppxlQqdM",
          "userDetails":{
              "userId":"SmlBIt5LP",
-             "userName":"Rinkesh Patel",
+             "userName":"bala vasu",
              "email":"apatel@gmail.com"
            }
      }
@@ -171,7 +171,7 @@ let setRouter = (app) => {
           "data": [
               {
                   "userId":"ux-XfMpDy",
-                  "userName":"Rinkesh Patel",
+                  "userName":"bala vasu",
                   "password":"$2a$10$/Jq3uKS..MhpcLZ3jPTxGuIurGbLiGQTqQw6gjwYM2CKXQTT3AmvO",
                   "email":"rinkeshpatel@gmail.com"
                 },
@@ -209,7 +209,7 @@ let setRouter = (app) => {
        "status": 200,
        "data": {
                   "userId":"SmlBIt5LP",
-                  "userName":"Rinkesh Patel",
+                  "userName":"bala vasu",
                   "password":"$2a$10$DLRLPP4UVON/yZ3uVIB2.u7jR3AD2SKuto12aFYXOcyg.9rOmHiF2",
                   "email":"rinkeshpatel@gmail.com"
                }

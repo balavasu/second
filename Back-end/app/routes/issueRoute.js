@@ -32,7 +32,7 @@ let setRouter = (app) => {
      "error":false,"message":"Issue created","status":200,"data":{"issueId":"rinwEgcOi","title":
      "Implement authentication in API","status":"In-backlog","issueType":"New Feature",
      "description":"Implement authentication - usermanagement in API","priority":"Medium",
-     "reporterUserId":"O1pU4GpJS","assigneeUserId":"ZE35LRyJQ","reporterName":"Rinkesh Patel",
+     "reporterUserId":"O1pU4GpJS","assigneeUserId":"ZE35LRyJQ","reporterName":"bala vasu",
      "assigneeName":"Rahul Sahah",
      "attachments":[{"link":"http://localhost:3002/api/v1/file/read/11fbcf69d81ade5b1deba22b4fba8207.pdf",
      "name":"IssueAttachment.pdf","dbFileName":"11fbcf69d81ade5b1deba22b4fba8207.pdf"}],
@@ -87,12 +87,12 @@ let setRouter = (app) => {
       "error":false,"message":"Issue found","status":200,"data":[{"issueId":"rinwEgcOi",
       "title":"Implement authentication in API","status":"In-progress","issueType":"New Feature",
       "description":"Implement authentication - usermanagement in API","priority":"Medium",
-      "reporterUserId":"O1pU4GpJS","assigneeUserId":"ZE35LRyJQ","reporterName":"Rinkesh Patel",
+      "reporterUserId":"O1pU4GpJS","assigneeUserId":"ZE35LRyJQ","reporterName":"bala vasu",
       "assigneeName":"Rahul Sahah",
       "attachments":[{"link":"http://localhost:3002/api/v1/file/read/11fbcf69d81ade5b1deba22b4fba8207.pdf",
       "name":"IssueAttachment.pdf","dbFileName":"11fbcf69d81ade5b1deba22b4fba8207.pdf"}],"estimate":"2d",
       "createdDate":"2019-07-19T21:40:04.000Z","lastUpdatedDate":"2019-07-19T21:50:35.151Z",
-      "lastUpdatedBy":"Rinkesh Patel","watchers":[],"comments":[],"issueNumber":40}]}
+      "lastUpdatedBy":"bala vasu","watchers":[],"comments":[],"issueNumber":40}]}
   }
     */
 
@@ -112,12 +112,12 @@ let setRouter = (app) => {
       "error":false,"message":"Issue found","status":200,"data":[{"issueId":"rinwEgcOi",
       "title":"Implement authentication in API","status":"In-progress","issueType":"New Feature",
       "description":"Implement authentication - usermanagement in API","priority":"Medium",
-      "reporterUserId":"O1pU4GpJS","assigneeUserId":"ZE35LRyJQ","reporterName":"Rinkesh Patel",
+      "reporterUserId":"O1pU4GpJS","assigneeUserId":"ZE35LRyJQ","reporterName":"bala vasu",
       "assigneeName":"Rahul Sahah",
       "attachments":[{"link":"http://localhost:3002/api/v1/file/read/11fbcf69d81ade5b1deba22b4fba8207.pdf",
       "name":"IssueAttachment.pdf","dbFileName":"11fbcf69d81ade5b1deba22b4fba8207.pdf"}],"estimate":"2d",
       "createdDate":"2019-07-19T21:40:04.000Z","lastUpdatedDate":"2019-07-19T21:50:35.151Z",
-      "lastUpdatedBy":"Rinkesh Patel","watchers":[],"comments":[],"issueNumber":40}]}
+      "lastUpdatedBy":"bala vasu","watchers":[],"comments":[],"issueNumber":40}]}
   }
     */
 
@@ -137,12 +137,12 @@ let setRouter = (app) => {
       "error":false,"message":"Issue deleted","status":200,"data":[{"issueId":"rinwEgcOi",
       "title":"Implement authentication in API","status":"In-progress","issueType":"New Feature",
       "description":"Implement authentication - usermanagement in API","priority":"Medium",
-      "reporterUserId":"O1pU4GpJS","assigneeUserId":"ZE35LRyJQ","reporterName":"Rinkesh Patel",
+      "reporterUserId":"O1pU4GpJS","assigneeUserId":"ZE35LRyJQ","reporterName":"bala vasu",
       "assigneeName":"Rahul Sahah",
       "attachments":[{"link":"http://localhost:3002/api/v1/file/read/11fbcf69d81ade5b1deba22b4fba8207.pdf",
       "name":"IssueAttachment.pdf","dbFileName":"11fbcf69d81ade5b1deba22b4fba8207.pdf"}],"estimate":"2d",
       "createdDate":"2019-07-19T21:40:04.000Z","lastUpdatedDate":"2019-07-19T21:50:35.151Z",
-      "lastUpdatedBy":"Rinkesh Patel","watchers":[],"comments":[],"issueNumber":40}]}
+      "lastUpdatedBy":"bala vasu","watchers":[],"comments":[],"issueNumber":40}]}
   }
     */
 
