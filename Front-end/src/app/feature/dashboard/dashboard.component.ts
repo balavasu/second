@@ -52,10 +52,10 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   public issueModalRef: BsModalRef;
   public notificationModalRef: BsModalRef;
 
-  @ViewChild(MatPaginator, null) paginator: MatPaginator;
-  @ViewChild(MatSort, null) sort: MatSort;
-  @ViewChild(DashboardConstants.issueTemplate, null) issueTemplate: TemplateRef<any>;
-  @ViewChild(DashboardConstants.notificationTemplate, null) notificationTemplate: TemplateRef<any>;
+  @ViewChild(MatPaginator,{static:false}) paginator: MatPaginator;
+  @ViewChild(MatSort,{static:false}) sort: MatSort;
+  @ViewChild(DashboardConstants.issueTemplate, {static:false}) issueTemplate: TemplateRef<any>;
+  @ViewChild(DashboardConstants.notificationTemplate, {static:false}) notificationTemplate: TemplateRef<any>;
 
   constructor(
     private issueService: IssueService,
