@@ -3,7 +3,7 @@ define({
   "version": "0.0.1",
   "description": "Documentation for the Issue Tracking Tool app",
   "title": "Issue Tracking Tool APIs",
-  "url": "http://rinkesh.cf:3002",
+  "url": "http://localhost:3002",
   "sampleUrl": false,
   "defaultVersion": "0.0.0",
   "apidoc": "0.3.0",
