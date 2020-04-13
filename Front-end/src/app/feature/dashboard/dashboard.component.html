@@ -31,51 +31,50 @@
     </div>
     <!-- ISSUE DATA TABLE -->
     <div class="list-container mat-elevation-z8">
-        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-
-            <ng-container matColumnDef="status">
-                <th mat-header-cell *matHeaderCellDef mat-sort-header> Status </th>
-                <td mat-cell *matCellDef="let row"> {{row.status}} </td>
-            </ng-container>
-
-            <ng-container matColumnDef="issueNumber">
-                <th mat-header-cell *matHeaderCellDef mat-sort-header> Issue# </th>
-                <td mat-cell *matCellDef="let row"> ID-{{row.issueNumber}} </td>
-            </ng-container>
-
-            <ng-container matColumnDef="title">
-                <th mat-header-cell *matHeaderCellDef mat-sort-header> Title </th>
-                <td mat-cell *matCellDef="let row"> {{row.title}} </td>
-            </ng-container>
-
-            <ng-container matColumnDef="createdDate">
-                <th mat-header-cell *matHeaderCellDef mat-sort-header> Date </th>
-                <td mat-cell *matCellDef="let row">{{row.createdDate | date: 'dd-MMM-yy hh:mm a'}}</td>
-            </ng-container>
-
-            <ng-container matColumnDef="reporter">
-                <th mat-header-cell *matHeaderCellDef mat-sort-header> Reporter </th>
-                <td mat-cell *matCellDef="let row"> {{row.reporterName}} </td>
-            </ng-container>
-
-            <ng-container matColumnDef="assignee">
-                <th mat-header-cell *matHeaderCellDef mat-sort-header> Assignee </th>
-                <td mat-cell *matCellDef="let row"> {{row.assigneeName}} </td>
-            </ng-container>
-
-            <ng-container matColumnDef="view">
-                <tr mat-header-row *matHeaderRowDef> View </tr>
-                <tr mat-row *matRowDef="let row; columns: displayedColumns;">
-                    <a (click)="openIssueModal(row)">
-                        <i class="fa fa-external-link-square"></i>
-                    </a>
+        <table class="table">
+                <tr>
+                    <th *ngFor="let columns of displayedColumns">
+                        {{ columns|uppercase }}   
+                    </th>
                 </tr>
-            </ng-container>
+                <tr *ngFor="let row of issueList">
+                    <td>
+                        {{row.status}}
+                    </td>
+                    <td>
+                    {{row.issueNumber}} 
+                    </td>
+                    <td>
+                        {{row.title}} 
+                    </td>
+                    <td>
+                        {{row.createdDate | date: 'dd-MMM-yy hh:mm a'}}
+                    </td>
+                    <td>
+                        {{row.reporterName}} 
+                    </td>
+                    <td>
+                        {{row.assigneeName}} 
+                    </td>
+                    <td>
+                        <a (click)="openIssueModal(row)">
+                            <i class="fa fa-external-link-square"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a (click)="openIssueDescription(row.issueNumber)"></a>     
 
-            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-            <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="openIssueDescription(row.issueNumber)">
-            </tr>
+                    </td>
+                </tr>
         </table>
+    <!-- </div>
+</div> -->
+    
+
+            <!-- <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="openIssueDescription(row.issueNumber)">
+            </tr> 
+        </table>-->
         <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" [showFirstLastButtons]="true">
         </mat-paginator>
     </div>
